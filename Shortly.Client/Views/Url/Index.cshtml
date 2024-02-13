@@ -1,0 +1,9 @@
+﻿@model List<Url>;
+
+@{
+    var currentDateTime = DateTime.UtcNow;
+}
+
+@if (TempData["SuccessMessage"] != null) {
+    <h3>Success @TempData["SuccessMessage"].ToString()</h3>
+}
