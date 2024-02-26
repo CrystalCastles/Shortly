@@ -5,5 +5,17 @@ namespace Shortly.Client.Controllers {
 		public IActionResult Users() {
 			return View();
 		}
+
+		public IActionResult Login() {
+			return View();
+		}
+
+		public IActionResult LoginSubmitted(string emailAddress, string password) {
+			return View();
+		}
+
+		public IActionResult Register() {
+			return View();
+		}
 	}
 }
